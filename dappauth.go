@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/dapperlabs/dappauth/ERCs"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	ethCrypto "github.com/ethereum/go-ethereum/crypto"
+	"github.com/nugbase/dappauth/ERCs"
 )
 
 var (
