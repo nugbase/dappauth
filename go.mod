@@ -7,7 +7,6 @@ require (
 	github.com/aristanetworks/goarista v0.0.0-20190325233358-a123909ec740 // indirect
 	github.com/btcsuite/btcd v0.0.0-20190315201642-aa6e0f35703c // indirect
 	github.com/cespare/cp v1.1.1 // indirect
-	github.com/dapperlabs/dappauth v0.0.0-20190918174809-4bc086d51243 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/deckarep/golang-set v1.7.1 // indirect
 	github.com/edsrzf/mmap-go v1.0.0 // indirect
