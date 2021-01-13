@@ -1,6 +1,10 @@
 [![Build Status](https://travis-ci.com/dapperlabs/dappauth.svg?branch=master)](https://travis-ci.com/dapperlabs/dappauth)
 [![Coverage Status](https://coveralls.io/repos/github/dapperlabs/dappauth/badge.svg?branch=master)](https://coveralls.io/github/dapperlabs/dappauth?branch=master)
-# dappauth
+# dappauth — nugbase fork
+
+The authors of https://flowerpatch.app manage a more up-to-date version of
+dappauth / ERC1271. This lib is currently working with go-ethereum v1.9.25
+(which had a bunch of annoying ABI changes and small tweaks)
 
 ## Example usage within a webserver
 
