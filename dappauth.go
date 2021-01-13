@@ -61,12 +61,12 @@ func (a *Authenticator) IsAuthorizedSigner(challenge, signature, addrHex string)
 	}
 
 	// try smart-contract wallet
-	_ERC1271Caller, errCA := ERCs.NewERC1271Caller(addr, a.cc)
+	_ERC1271Caller, errCA := ERCs.NewERCsCaller(addr, a.cc)
 	if errCA != nil {
 		return false, mergeErrors(errEOA, errCA)
 	}
 
-	_ERC1271CallerSession := ERCs.ERC1271CallerSession{
+	_ERC1271CallerSession := ERCs.ERCsCallerSession{
 		Contract: _ERC1271Caller,
 		CallOpts: bind.CallOpts{
 			Pending: false,
